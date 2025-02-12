@@ -1,0 +1,54 @@
+// shopping mall
+{
+"name" : "K11",
+"area" : "19000",
+"cinema" : {
+    "name" : "Cinema A",
+    "opendedDate" : "01-Jan-2022",
+    "releasedFilms" : [
+        {
+            "name" : "film A",
+            "releaseDate" : "01-Jan-2022"
+        },
+        {
+            "name" : "film B",
+            "releaseDate" : "02-Jan-2022"
+        }
+    ]
+},
+"shopCategory" : [
+    "Sport",
+    "Food",
+    "Clothing"
+]
+}
+
+    public class ShoppingMall{
+    private String name;
+    private int area;
+    private Cinema Cinema;
+    private String[] shopCategory;
+
+    public String class Name{
+        private String name;
+    }
+    public integer class area{
+        private int area;
+    }
+    public static class Cinemas{
+        private String name;
+        private LocalDate openedDate;
+        private Film[] releasedFilms;
+        private releaseDate;
+    }
+    public static class Film{
+        private String name;
+        private LocalDate releasedFilm
+    }
+
+    public static class shopCategory{
+        private String Sport;
+        private String Food;
+        private String Clothing;
+    }
+}
